@@ -1,0 +1,67 @@
+*{
+  box-sizing: border-box;
+  font-family: poppins, sans-serief;
+  color: #f8f9fa;
+  font-weight: bold;
+}
+body {
+  background-color: #9775fa;
+  background-size: cover;   
+  background-image: linear-gradient(rgba(0,0,128,0.4),rgba(0,0,128,0.6)), url("./survey-img.png"); 
+} 
+
+.header {
+  text-align: center;
+  margin-top: 60px;
+}
+#title {
+  font-size: 32px;
+}
+.header p {
+  font-style: italic;
+  font-size: 26px;
+  font-weight: normal;
+}
+.container {
+  width: 60%;
+  margin: 0 auto;
+  padding: 16px 32px;
+  font-size: 18px;
+  font-style: bold;
+  background-color:#343a40;  
+}
+
+.subContainer {
+  margin-bottom: 20px;
+  padding: 8px;
+}
+.textInputContainer > input,
+.subContainer > select,
+.subContainer > textarea {  
+  width: 100%;
+  font-size: 20px;
+  padding: 8px;  
+  margin-bottom: 20px;
+  outline: none;
+  border-radius: 8px;
+  border: none;  
+}
+
+.radioInputContainer {  
+  padding: 8px;  
+}
+
+input[type=radio],input[type=checkbox] {
+  height: 20px;
+  width: 20px; 
+}
+
+#submit {
+  width: 100%;
+  background-color: #2f9e44;  
+  font-size: 20px;
+  padding: 8px;   
+  outline: none;
+  border-radius: 5px;
+  border: none;  
+}
